@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/shouye/shouye",
+    "pages/person/person",
+    "pages/logs/logs"
+  ],
+  "tabBar":{
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index_off.png",
+        "selectedIconPath": "images/index_on.png",
+        "text": "index"
+      },
+      {
+        "pagePath": "pages/shouye/shouye",
+        "iconPath": "images/home_off.png",
+        "selectedIconPath": "images/home_on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "images/wode_off.png",
+        "selectedIconPath": "images/wode_on.png",
+        "text": "个人"
+      }   
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
