@@ -1,1 +1,17 @@
-/* pages/person/person.wxss */
+.mylogin{
+  height: 400rpx;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.mylogin image{
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.myfavorite text{
+    padding: 20rpx;
+}

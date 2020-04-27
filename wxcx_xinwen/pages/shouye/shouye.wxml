@@ -1,15 +1,19 @@
 <view class = "shouye">
   <swiper indicator-dots="true" autoplay="true" >
-  <view wx:for="{{swiperimage}}" wx:key="swiper{{index}}">
+  <view wx:for="{{swiperimage}}" wx:key="index">
       <swiper-item>
       <image src="{{item.src}}"></image>
     </swiper-item>
   </view>
   </swiper>
   <view class="xinwenlist">
-    <view class="new-item" wx:for='{{newslist}}' wx:key='{{item.id}}'>
+    <view class="new-item" wx:for='{{newslist}}' wx:key='id'>
       <image src='{{item.poster}}'></image>
-      <text>{{item.title}}----{{item.data}}</text>
+      <view class="xinwenlist_text">
+        <text bindtap="gotogetail" data-id="{{item.id}}">{{item.title}}</text>
+        <text>{{item.data}}</text>
+      </view>
     </view>
   </view>
+  <button plain="true">点击更多</button>
 </view>

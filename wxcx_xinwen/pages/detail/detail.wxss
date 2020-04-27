@@ -1,0 +1,23 @@
+.detail_contain{
+  padding: 15rpx;
+  text-align: center;
+}
+.detail_title{
+  font-size: 35rpx;
+  line-height: 35rpx;
+}
+.detail_poster{
+  width: 100%;
+}
+.detail_content{
+  text-align: left;
+  font-size: 30rpx;
+  line-height: 35rpx;
+}
+.detail_data{
+  font-size: 30rpx;
+  text-align: right;
+  line-height: 30rpx;
+  margin-right: 25rpx;
+  margin-top: 20rpx;
+}

@@ -6,12 +6,3 @@ swiper image{
   height: 100%;
   width: 100%;
 }
-.xinwenlist{
-  height: 600rpx;
-  padding: 15rpx;
-}
-.new-item{
-  display: flex;
-  flex-direction: row;
-  border-bottom: 1rpx solid black;
-}

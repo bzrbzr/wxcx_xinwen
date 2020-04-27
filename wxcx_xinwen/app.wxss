@@ -8,3 +8,24 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.xinwenlist{
+  height: 600rpx;
+  padding: 15rpx;
+}
+.new-item{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid black;
+}
+.new-item image{
+  height: 180rpx;
+  width: 180rpx;
+  margin: 5rpx;
+}
+text{
+  padding: 20rpx;
+}
+.xinwenlist_text{
+  display: flex;
+  flex-direction: column;
+}

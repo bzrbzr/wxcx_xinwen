@@ -1,2 +1,16 @@
-<!--pages/person/person.wxml-->
-<text>pages/person/person.wxml</text>
+<view class='mylogin'>
+  <image src="{{mylogin_image}}"></image>
+  <text>{{nickname}}</text>
+</view>
+<view class="myfavorite">
+  <text>我的收藏(1)</text>
+  <view class="xinwenlist">
+    <view class="new-item" wx:for='{{newslist}}' wx:key='id'>
+      <image src='{{item.poster}}'></image>
+      <view class="xinwenlist_text">
+        <text>{{item.title}}</text>
+        <text>{{item.data}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -2,8 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/shouye/shouye",
-    "pages/person/person",
-    "pages/logs/logs"
+    "pages/person/person"
   ],
   "tabBar":{
     "list":[
@@ -24,7 +23,7 @@
         "iconPath": "images/wode_off.png",
         "selectedIconPath": "images/wode_on.png",
         "text": "个人"
-      }   
+      } 
     ]
   },
   "window":{
